@@ -1,0 +1,23 @@
+name: todoey_app_flutter
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  provider: ^6.0.1
+
+dev_dependencies:
+  blackfoot_flutter_lint: ^1.0.6
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
