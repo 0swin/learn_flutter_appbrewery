@@ -7,7 +7,7 @@ import 'story_brain.dart';
 void main() => runApp(const Destini());
 
 class Destini extends StatelessWidget {
-  const Destini({Key key}) : super(key: key);
+  const Destini({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class Destini extends StatelessWidget {
 StoryBrain storyBrain = StoryBrain();
 
 class StoryPage extends StatefulWidget {
-  const StoryPage({Key key}) : super(key: key);
+  const StoryPage({Key? key}) : super(key: key);
 
   @override
   _StoryPageState createState() => _StoryPageState();
